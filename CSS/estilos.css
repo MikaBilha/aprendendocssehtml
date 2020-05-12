@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+
+body {
+  background-image: url('https://img.elo7.com.br/product/zoom/28B29DA/fundo-fotografico-em-tecido-textura-cinza-2-20x1-50-decoracao.jpg');
+  height: 100vh; width: 1100px;
+  font-family: 'Libre Casion Text';
+  font-size:1.5em;
+}
+
+.menu {
+  background-color: Gray; 
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu li {
+  list-style: none;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-title {
+  color: white;
+  text-align: center;
+}
+
+.title-subtitle {
+  color: tomato;
+  text-align: center;
+  font-family: 'Lobster';
+}
